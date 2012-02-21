@@ -1,0 +1,32 @@
+NAME
+
+    Data::Password::Entropy::Old - Calculate the password strength
+
+SYNOPSIS
+
+	use Data::Password::Entropy::Old;
+	my $password = "Dis";
+	my $pwtest = pwstrengthcheck($password);
+	print "Strength $pwtest\n";#between 0 and 100
+
+	#Based on http://mxr.mozilla.org/seamonkey/source/security/manager/pki/resources/content/password.js
+
+DESCRIPTION
+
+Data::Password::Entropy::Old - Calculate the password strength
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+COPYRIGHT
+
+	Data::Password::Entropy::Old is Copyright (c) 2011 Stefan Gipper
+	All rights reserved.
+
+	This program is free software; you can redistribute
+	it and/or modify it under the same terms as Perl itself.
+
+SEE ALSO
+
+    perl(1)
