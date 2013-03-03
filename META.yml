@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #
 name:         Data-Password-Entropy-Old
-version:      0.1
+version:      0.2
 version_from: Old.pm
 installdirs:  site
 requires:

@@ -7,6 +7,6 @@ WriteMakefile(
     'PREREQ_PM'		=> {},
     ($] >= 5.005 ? (
       ABSTRACT_FROM => 'Old.pm', 
-      AUTHOR     => 'Stefan Gipper <stefanos@cpan.org>',
+      AUTHOR     => '-',
     ) : ()),
 );
